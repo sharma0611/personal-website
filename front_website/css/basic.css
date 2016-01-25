@@ -1,0 +1,266 @@
+@font-face {
+	font-weight: bold;
+	font-family: Gotham;
+	src: url("fonts/gothambold.otf") format("opentype");
+}
+
+@font-face {
+	font-family: Bariol;
+	src: url("fonts/bariol.otf") format("opentype");
+}
+
+@font-face {
+	font-family: Segoe;
+	src: url("fonts/segoeuisl.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: Jaguarso;
+	src: url("fonts/jaguars.ttf") format("truetype");
+}
+
+.page {
+	height: 100vh;
+	width: 100vw;
+}
+
+#header {
+	padding-top: 48vh;
+}
+
+h1 {
+	font-family: Bariol;
+	font-size: 7.5vh;
+	color: white;
+	padding: 0;
+	margin: 2vh;
+}
+
+.headertext{
+	font-family: Bariol;
+	font-size: 7.5vh;
+	color: white;
+	padding: 0;
+	margin:0;
+}
+
+#first {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0px;
+	background-color: #138a99;
+}
+
+.panel {
+	height: 100vh;
+	width: 100vw;
+}
+
+.secondary {
+	background: transparent;
+	margin-bottom: 10%;
+}
+
+#contain {
+	margin-bottom: 50vh;
+}
+
+b {
+	font-family: Bariol;
+	font-size: 55pt;
+	font-weight: regular;
+	color: white;
+	position: absolute;
+	top:53.2%;
+	left:52.5%;
+}
+
+
+.strong {
+	font-weight: bold;
+	display:inline-block;
+	transform: translateY(-1.5px);
+}
+
+.title {
+	padding-top: 68.3%;
+	padding-left: 4.2%;	
+}
+
+.rectangle {
+	width:20px;
+	height: 80vh;
+	background: white;
+	padding-top: 20%;
+}
+
+.projectnames {
+	text-align: right;
+	margin-top: 10vh;
+}
+
+p {
+	font-family: Bariol;
+	font-size: 5.3vh;
+	color: white;
+	opacity: 0.3;
+	cursor: pointer;
+}
+
+#hoverlayer {
+	position: absolute;
+	top:0;
+}
+
+.tertiary {
+	background-color: #1b6e78;
+}
+
+.design {
+	background-color: #12b2b8;
+}
+
+.contact {
+	background-color: #17787c;
+}
+
+#overlay {
+	position: relative;
+}
+
+
+/*classes for tertiary to change to */
+
+.bgimg {
+	height: auto;
+	width: 100vw;
+}
+
+#tertll {
+	overflow:hidden;
+	position:absolute;
+	opacity:0;
+}
+
+.litlogo {
+	height: 50vh;
+	width: auto;
+	margin-top: 8%;
+}
+
+.blurb {
+	transform: translateX(-1vw);
+	position: absolute;
+}
+
+h3 {
+	font-family: bariol;
+	font-size: 3.2vh;
+	color: white;
+	text-shadow: 5px 5px 4px black;
+	background-color:rgba(20,20,25,0.45);
+	padding: 1.5%;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	border-radius: 10px;
+}
+
+#llblurb {
+	opacity: 0;
+	width: 100%;
+}
+
+#inner {
+	background-color:rgba(20,20,25,0.4);
+	position: absolute;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#resblurb {
+	opacity: 0;
+	width: 100%;
+}
+
+.reslogo {
+	margin-top: 17%;
+	margin-left: 3%;
+	width: 15vw;
+	height: auto;
+}
+
+#tertres {
+	overflow:hidden;
+	position:absolute;
+	opacity:0;
+}
+
+#terthot {
+	overflow:hidden;
+	position:absolute;
+	opacity:0;
+}
+
+h4 {
+	font-family: Segoe;
+	font-size: 3.2vh;
+	margin-top: 5%;
+	color: #1a3b5e;
+}
+
+.hotfont {
+	font-family: Jaguarso;
+	font-size: 18.3vh;
+	color: white;
+	text-shadow: 2px 2px 4px black;
+	margin-top: 13%;
+	line-height: 95%;
+	text-align: left;
+	background-color:rgba(20,20,25,0.45);
+	padding: 1.5%;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	border-radius: 10px;
+}
+
+#hotblurb {
+	opacity: 0;
+	width: 100%;
+}
+
+h5 {
+	font-family: Bariol;
+	font-size: 3.5vh;
+	margin-top: 5%;
+	color: white;
+	text-align: center;
+}
+
+#tertbeer {
+	overflow:hidden;
+	position:absolute;
+	opacity:0;
+}
+
+.beerlogo {
+	width: 80%;
+	height:auto;
+	margin-top: 22%;
+}
+
+#beerblurb {
+	opacity: 0;
+	width: 100%;
+}
+
+h6 {
+	font-family: Varela Round;
+	font-size: 3.5vh;
+	margin-top: 5%;
+	text-transform: uppercase;
+	color: white;
+}
+
+#twtmn {
+	opacity: 0;
+	position: absolute;
+}
